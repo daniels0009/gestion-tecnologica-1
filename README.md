@@ -2,7 +2,7 @@
 
 **Integrantes:**
 
-* Andrés Felipe Gomez
+* Andrés Felipe Gomez Salinas
 * Diego Alejandro Rodríguez Ayala
 * Diego Alejandro Parra Daza
 
