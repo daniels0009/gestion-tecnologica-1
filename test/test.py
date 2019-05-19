@@ -22,6 +22,11 @@ class test_sum(unittest.TestCase):
         result = sum(data)
         self.assertEqual(result, -7, "Incorret sum of negative numbers")
     
-    
+    # def test_list_mix(self):
+    #     """ Test that it can sum a list of mix numbers """
+    #     data = [2.1, -4,  1]
+    #     result = sum(data)
+    #     self.assertEqual(result, -0.9, "Incorret sum of mix numbers")
+
 if __name__ == '__main__':
     unittest.main()

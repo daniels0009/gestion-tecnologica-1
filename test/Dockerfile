@@ -1,5 +1,7 @@
 FROM python:3.7.2-alpine
 
-COPY . /test
+WORKDIR /app
 
-CMD python /test/test_sum.py
+COPY . /app
+
+ENTRYPOINT ["python"]
