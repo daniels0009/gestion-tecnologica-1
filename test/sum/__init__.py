@@ -1,5 +1,5 @@
-def sum(arg):
+def sum_list(arg):
     total = 0
     for val in arg:
         total+=val
-    return total
+    return round(total,1)
