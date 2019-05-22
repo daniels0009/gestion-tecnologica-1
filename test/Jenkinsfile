@@ -21,7 +21,7 @@ pipeline {
     }
     stage('Run unit tests') {
       steps {
-        sh "docker run ${dockerImage.id} test.py -v"
+        sh "docker run ${dockerImage.id} python test.py -v"
       }
     }
     stage('Validate feature') {
