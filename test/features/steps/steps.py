@@ -16,7 +16,7 @@ def step_impl(context, x, y):
     assert isinstance(y, float)
     context.result = sum_list([x, y])
 
-@then('the calculator returns "{expected:g}"')
-def step_impl(context, expected):
-    assert isinstance(expected, float)
-    assert context.result == expected
+@then('the calculator returns "{sum:g}"')
+def step_impl(context, sum):
+    assert isinstance(sum, float)
+    assert context.result == sum
