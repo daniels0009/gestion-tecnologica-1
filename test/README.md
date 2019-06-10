@@ -35,3 +35,13 @@ Se desarrolla una calculadora de forma modular y se inicia con la modulo de suma
 * ### Validar características
 
   Por ultimo en esta etapa se validan las características implementadas con base al script del requerimiento, utilizando la librería **Behave** de *Python*, donde se declara un escenario en el que un usuario pueda sumar dos números de cualquier tipo de dato como parámetro.
+
+## Docker
+
+Crear volumen: 
+
+`$ docker volume create jenkins_home`
+
+Iniciar contenedor de Jenkins con Docker:  
+
+`$ docker run --rm -v jenkins_home:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock -p 8080:8080 daig0r/jenkins-with-docker`
